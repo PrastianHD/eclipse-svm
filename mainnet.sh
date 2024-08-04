@@ -109,7 +109,7 @@ for i in "${!private_key_array[@]}"; do
   echo "$private_key" > pvt-key.txt
   
   echo -e "${YELLOW}Executing bridge for address $address with private key $private_key...${NC}"
-  node bin/cli.js -k pvt-key.txt -d "$address" -a "$ETH_AMOUNT" --sepolia
+  node bin/cli.js -k pvt-key.txt -d "$address" -a "$ETH_AMOUNT" --mainnet
   echo
   echo -e "${GREEN}Deposits will finalize and be processed in about 2-3 minutes.${NC}"
   echo -e "${GREEN}You can check Eclipse Deposit Tx here: https://explorer.eclipse.xyz/address/$address${NC}"
