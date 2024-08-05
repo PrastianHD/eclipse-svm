@@ -2,7 +2,7 @@
 
 ## Clone
 ```
-https://github.com/PrastianHD/eclipse-svm.git
+git clone https://github.com/PrastianHD/eclipse-svm.git
 cd eclipse-svm
 ```
 
