@@ -1,6 +1,17 @@
 # eclipse-svm
 
+## Clone
 ```
-npm install chalk@4.1.2
+https://github.com/PrastianHD/eclipse-svm.git
+cd eclipse-svm
 ```
 
+## Create Wallet
+```
+chmod +x wallet.sh && ./wallet.sh
+```
+
+## Bridge
+```
+chmod +x bridge.sh && ./bridge.sh
+```
